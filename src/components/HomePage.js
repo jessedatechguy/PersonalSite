@@ -1,11 +1,11 @@
 import React from "react";
-
+import './HomePage.css';
 import jesse from './assets/jesse.jpg';
 
 const HomePage = () => {
   return (
     <div>
-        <img src={jesse} alt="this is what i look like" style={{height:300}}/>
+      <img className='ImageSize' src={jesse} alt="this is what i look like" />
       <h1> Jesse Garcia</h1>
       <p>
         {" "}
